@@ -7,8 +7,8 @@ Spark on Kubernetes Docker images built with [official Apache binaries](http://s
 
 Spark comes in a number of flavours, no version is the latest, so choose one which suits your needs:
 
-| Image Version | Spark Version | Hadoop Version
--------------------------------------------------
+| Image Version | Spark Version | Hadoop Version |
+|---------------|---------------|----------------|
 | 2.3.0-hadoop2.7 | 2.3.0 | 2.7 |
 | 2.3.0-hadoop2.6 | 2.3.0 | 2.6 |
 | 2.3.0-without-hadoop | 2.3.0 | - |
