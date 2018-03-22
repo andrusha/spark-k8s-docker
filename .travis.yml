@@ -2,9 +2,9 @@ sudo: required
 services:
   - docker
 env:
-  - IMAGE_VERSION=2.3.0-hadoop2.7 SPARK_URL=http://apache.mirrors.spacedump.net/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz
-  - IMAGE_VERSION=2.3.0-hadoop2.6 SPARK_URL=http://apache.mirrors.spacedump.net/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.6.tgz
-  - IMAGE_VERSION=2.3.0-without-hadoop SPARK_URL=http://apache.mirrors.spacedump.net/spark/spark-2.3.0/spark-2.3.0-bin-without-hadoop.tgz  
+  - IMAGE_VERSION=2.3.0-hadoop2.7 SPARK_URL=http://apache.mirrors.spacedump.net/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.7.tgz MD5_SUM="AF45EEB06DC1BEEE6D4C70B92C0E0237"
+  - IMAGE_VERSION=2.3.0-hadoop2.6 SPARK_URL=http://apache.mirrors.spacedump.net/spark/spark-2.3.0/spark-2.3.0-bin-hadoop2.6.tgz MD5_SUM="784F4149DB2957AA4B8B115F0D50C85E"
+  - IMAGE_VERSION=2.3.0-without-hadoop SPARK_URL=http://apache.mirrors.spacedump.net/spark/spark-2.3.0/spark-2.3.0-bin-without-hadoop.tgz MD5_SUM="DB21021B8E877B219AB886097EF42344"
 
 script: ./build_image.sh
 deploy:
