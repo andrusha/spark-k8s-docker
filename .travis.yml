@@ -1,0 +1,8 @@
+sudo: required
+services:
+  - docker
+
+script: ./build_image.sh
+deploy:
+  provider: script
+  script: ./docker_push.sh
